@@ -1,0 +1,273 @@
+.libContentBox{
+    display: flex;
+    flex-direction: column;
+
+    width: 1238px;
+    height: 919px;
+
+    margin: 52px auto;
+
+    background: rgba(250, 242, 234, 0.35);
+    border: 1px solid #CBBABB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.libContentTitle{
+    flex: 3;
+    text-align: center;
+}
+
+.libContentBody {
+    flex: 9;
+    background: rgba(250, 242, 234, 0.7);
+    border-radius: 0px 0px 16px 16px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.titleText {
+    font-size: 41px;
+    margin-top: 65px;
+    color: #BA8889;
+}
+
+.contentBoxFooter {
+    flex: 1.5;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    width: 150px;
+    height: 45px;
+    left: 177px;
+    top: 877px;
+
+    background: #BA8889;
+    opacity: 0.8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+    user-select: none;
+    padding-top: 4px;
+    box-sizing: border-box;
+
+    font-size: 24px;
+    text-align: center;
+    font-family:'maruburiL';
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.85);
+    margin: 10px 50px 10px 50px;
+}
+
+.threeBtnGroup{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    margin-bottom: 25px;
+}
+
+
+.btnLeft {
+    flex: 1;
+    border-radius: 16px 0 0 16px;
+    margin-right: 0;
+}
+
+.btnCenter {
+    flex: 1;
+    background: #DBA69E;
+    border-radius: 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.btnRight{
+    flex: 1;
+    background: #DDC8BD;
+    border-radius: 0 16px 16px 0;
+    margin-left: 0;
+}
+
+.book {
+    width: 178px;
+    height: 262px;
+    background-color: rgba(180, 182, 188, 1);
+    cursor: pointer;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 15px;
+    color: #FAF2EA;
+    box-sizing: border-box;
+    font-family: 'maruburiL';
+}
+
+.book:active{
+    opacity: 70%;
+}
+
+.fiveBooks {
+    margin: 103px 118px;
+    display: flex;
+    flex-direction: row;
+
+    max-width: 1002px;
+    max-height: 262px;
+
+    gap: 28px;
+}
+
+.contentBoxBody {
+    flex: 9;
+}
+
+.scrollBox{
+    overflow-y: scroll;
+
+    max-height: 354px;
+    margin: 103px 118px;
+    width: 1002px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    box-sizing: content-box;
+    padding-right: 25px;
+}
+
+.scrollBox .fiveBooks{
+    margin: 0;
+}
+
+.scrollDesign::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scrollDesign::-webkit-scrollbar-track {
+    background-color: #CBBABB;
+    border-radius: 15px;
+}
+
+.scrollDesign::-webkit-scrollbar-thumb {
+    background: #BA8889;
+    border-radius: 15px;
+}
+
+
+.starCheck {
+    user-select: none;
+    border-radius: 50%;
+
+    padding-top: 4px;
+
+    font-size: 24px;
+
+    font-family:'maruburiL';
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.85);
+    margin: 0px 10px 10px 990px;
+
+}
+
+.writingBox {
+    margin: 113px 118px;
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    box-sizing: border-box;
+}
+
+.writingArea {
+    width: 829px;
+    height: 300px;
+    background-color: #DDC8BD;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 10px;
+    resize: none;
+    font-family: 'MaruburiR';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.writingArea:focus {
+    outline: 1px solid #BA8889;
+}
+
+.writingArea::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.more {
+    margin-bottom: 0px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.wide {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.bookInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.bookInfoDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookInfoDetail input{
+    font-family: 'maruburiR';
+    font-size: 16px;
+    padding: 10px;
+    appearance: none;
+    background: #DDC8BD;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    width: 230px;
+    height: 42px;
+}
+
+.readingPeriod span{
+    font-size: 42px;
+    position: relative;
+    top: 6px;
+}
+
+.fluid {
+    width: 100%;
+}
+.short{
+    height: 250px;
+}
+
+.yearText{
+    font-size: 26px;
+    margin: 0;
+    color: #DBA69E;
+    margin-bottom: 50px;
+
+}
+
+.btnLeft2 {
+    flex: 1;
+    background: #DDC8BD;
+    border-radius: 16px 0 0 16px;
+    margin-right: 0;
+}
+
+.btnRight2{
+    flex: 1;
+    border-radius: 0 16px 16px 0;
+    margin-left: 0;
+}

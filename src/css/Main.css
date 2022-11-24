@@ -1,0 +1,96 @@
+.indexBox {
+    background-color: rgba( 255, 242, 234, 0.35 );
+    display: flex;
+    flex-direction: row;
+
+    width: 1080px;
+    height: 312px;
+
+    margin: 0 auto;
+
+    border-radius: 16px;
+    border: 1px solid #CBBABB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.indexItem{
+    background-color: rgba( 250, 242, 234, 0.7 );
+    width: 860px;
+    border-radius: 16px 0 0 16px;
+    height: 312px;
+}
+
+.loReBox {
+    display: flex;
+    flex-direction: column;
+    margin: 88px 0 0 200px;
+    height: 138px;
+    text-align: left;
+}
+
+.loReItem {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 32px;
+    font-family: maruburiL;
+}
+
+.textBox{
+    width: 200px;
+    text-align: right;
+}
+
+.mainBtn {
+    margin: 0px;
+    width: 65px;
+    height: 65px;
+    text-align: right;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+    background: #BA8889;
+    border-radius: 50%;
+    border: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mainBtn:hover {
+    padding-right: 15px;
+    margin-top: 15px;
+    width: 421px;
+    height: 49px;
+}
+
+.indexBoxDesign {
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.indexDesignItem {
+    width: 35px;
+}
+
+.indexDesignItem:nth-child(2) {
+    background: rgba(186, 136, 137, 0.7);
+
+}
+.indexDesignItem:nth-child(3) {
+    background: rgba(250, 242, 234, 0.7);
+
+}
+.indexDesignItem:nth-child(4) {
+    background: rgba(219, 166, 158, 0.7);
+
+}.indexDesignItem:nth-child(5) {
+     background: rgba(250, 242, 234, 0.7);
+     border-radius: 0px 16px 16px 0px;
+ }
+
+

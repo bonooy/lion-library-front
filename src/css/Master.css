@@ -1,0 +1,66 @@
+@font-face {
+    font-family: maruburiB;
+    src: url('../assets/fonts/MaruBuri-Bold.ttf');
+}
+
+@font-face {
+    font-family: maruburiR;
+    src: url('../assets/fonts/MaruBuri-Regular.ttf');
+}
+
+@font-face {
+    font-family: maruburiL;
+    src: url('../assets/fonts/MaruBuri-Light.ttf');
+}
+
+body {
+    background-image: url('../assets/images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    margin: 0;
+    height: 100vh;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html, body, h1, h2, h3 ,h4 {
+    font-family: maruburiB;
+}
+
+p,a, form, input {
+    font-family: maruburiR;
+}
+
+.titleBox {
+    margin-top: 153px;
+    text-align: center;
+}
+
+.titleName{
+    font-size: 96px;
+    color: rgba( 0, 0, 0, 0.7 );
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    opacity: 70%;
+}
+
+
+input {
+    border: none;
+    padding: 2%;
+}
+input:focus{
+    outline: none;
+}
+
+
